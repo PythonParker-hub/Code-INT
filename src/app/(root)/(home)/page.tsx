@@ -22,11 +22,11 @@ export default function Home() {
 
   const handleQuickAction = (title: string) => {
     switch (title) {
-      case "New Call":
+      case "Cuộc họp mới":
         setModalType("start");
         setShowModal(true);
         break;
-      case "Join Interview":
+      case "Tham dự buổi phỏng vấn":
         setModalType("join");
         setShowModal(true);
         break;
